@@ -262,7 +262,7 @@ void prepGLUT(int argc, char **argv)
 
 void quickMin(double xs, double xe, double ys, double ye, double prec, double &minx_r, double &miny_r, double &minz_r)
 {
-	//not quaick, actually; better use some proper
+	//not quick, actually; better use some proper
 	//minimize algorithm
 	double stepx = abs(xe - xs) / prec;
 	double stepy = abs(ye - ys) / prec;
